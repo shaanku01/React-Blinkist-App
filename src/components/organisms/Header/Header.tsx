@@ -1,22 +1,24 @@
 import React from "react";
 
 
+import {useNavigate} from 'react-router-dom';
 
-
-import Typography from "../atoms/Typography/Typography";
+import Typography from "../../atoms/Typography/Typography";
 
 import SearchIcon from "@mui/icons-material/Search";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Styles from "./Header.module.css";
 import { Grid } from "@mui/material";
-import Explore from "./Explore/Explore";
+import Explore from "../Explore/Explore";
 
 import {useAuth0} from '@auth0/auth0-react';
-import CustomAvatar from "../atoms/Avator/Avator";
+import CustomAvatar from "../../atoms/Avator/Avator";
 import Typography2 from "@mui/material/Typography";
 
 
 const Header = () => {
+
+  const navigate = useNavigate();
 
   // const {loginWithRedirect , logout , user , isAuthenticated} = useAuth0();
 
@@ -43,7 +45,7 @@ const Header = () => {
         <Explore />
         </Grid>
         <Grid item xs={4}  >
-          <div className={Styles.lib}><Typography variant={"body1"} content={"My Library"} styles={{marginTop:"7px" , cursor: "pointer"}} /></div>
+          <div className={Styles.lib} onClick={()=>{navigate('/')}}><Typography variant={"body1"} content={"My Library"} styles={{marginTop:"7px" , cursor: "pointer"}} /></div>
             
         </Grid>
       

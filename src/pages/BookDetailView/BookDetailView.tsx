@@ -9,7 +9,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import React from "react";
 import itemlist from '../input.json';
 import {useNavigate} from 'react-router-dom';
-import Header from "../../components/organisms/Header";
+import Header from "../../components/organisms/Header/Header";
 
 const customTheme = createMuiTheme({
     palette: {

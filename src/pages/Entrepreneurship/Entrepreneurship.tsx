@@ -10,7 +10,7 @@ import Typography from "../../components/atoms/Typography/Typography";
 import data from "../input.json";
 
 import Card2 from '../../components/molecules/Card2/Card2'
-import Header from "../../components/organisms/Header";
+import Header from "../../components/organisms/Header/Header";
 const Entrepreneurship = () => {
 
 

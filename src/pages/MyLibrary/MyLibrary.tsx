@@ -1,15 +1,15 @@
 
 import { ButtonGroup, Grid, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import Card from "../components/molecules/Card/Card";
-import Footer from "../components/molecules/footer/Footer";
-import Header from "../components/organisms/Header";
-import mylist from "./input.json";
+import Card from "../../components/molecules/Card/Card";
+import Footer from "../../components/molecules/footer/Footer";
+import Header from "../../components/organisms/Header/Header";
+import mylist from "../input.json";
 import Styles from "./MyLibrary.module.css";
-import CustomTabs from "../components/organisms/Tabs/Tabs";
+import CustomTabs from "../../components/organisms/Tabs/Tabs";
 
-import Typographys from "../components/atoms/Typography/Typography";
-import api from '../api/books';
+import Typographys from "../../components/atoms/Typography/Typography";
+import api from '../../api/books';
 
 
 const MyLibrary = () => {
