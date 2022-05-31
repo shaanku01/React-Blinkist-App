@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1644425744622" clover="3.2.0">
+  <project timestamp="1644425744622" name="All files">
+    <metrics statements="181" coveredstatements="100" conditionals="44" coveredconditionals="26" methods="78" coveredmethods="53" elements="303" coveredelements="179" complexity="0" loc="181" ncloc="181" packages="21" files="38" classes="38"/>
+    <package name="src">
+      <metrics statements="17" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="App.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\App.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\index.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.ts" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\reportWebVitals.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="webpack.config.js" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\webpack.config.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.api">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="books.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\api\books.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Avator">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Avator.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Avator\Avator.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="Avator.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Avator\Avator.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Button">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Button.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Button\Button.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="21" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Heading">
+      <metrics statements="15" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+      <file name="Heading.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Heading\Heading.stories.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+      <file name="Heading.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Heading\Heading.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Icon">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Icon.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Icon\Icon.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="icon.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Icon\icon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Image">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Image.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Image\Image.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="Images.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Image\Images.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Logo">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Logo.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Logo\Logo.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.MenuItem">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="MenuItem.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\MenuItem\MenuItem.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="MenuItem.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\MenuItem\MenuItem.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="12" count="75" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.Typography">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Typography.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\atoms\Typography\Typography.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="568" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.Banner">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Banner.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\Banner\Banner.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="Banner.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\Banner\Banner.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.Card">
+      <metrics statements="9" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
+      <file name="Card.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\Card\Card.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="Card.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\Card\Card.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="24" type="stmt"/>
+        <line num="26" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="22" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.Card2">
+      <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <file name="Card2.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\Card2\Card2.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="64" type="stmt"/>
+        <line num="27" count="62" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="62" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="86" count="1" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.CustomSearch">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="CustomSearch.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\CustomSearch\CustomSearch.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.footer">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Footer.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\footer\Footer.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="Footer.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\molecules\footer\Footer.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Header.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\organisms\Header.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\organisms\Header.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="32" count="19" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.Explore">
+      <metrics statements="19" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="8"/>
+      <file name="Explore.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\organisms\Explore\Explore.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="Explore.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\organisms\Explore\Explore.tsx">
+        <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="104" count="5" type="stmt"/>
+        <line num="106" count="29" type="stmt"/>
+        <line num="108" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="111" count="28" type="stmt"/>
+        <line num="116" count="29" type="stmt"/>
+        <line num="117" count="29" type="stmt"/>
+        <line num="118" count="29" type="stmt"/>
+        <line num="122" count="5" type="stmt"/>
+        <line num="123" count="5" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.Tabs">
+      <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <file name="Tabs.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\organisms\Tabs\Tabs.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="Tabs.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\components\organisms\Tabs\Tabs.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages">
+      <metrics statements="40" coveredstatements="16" conditionals="14" coveredconditionals="2" methods="13" coveredmethods="7"/>
+      <file name="MyLibrary.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\pages\MyLibrary.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="MyLibrary.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\pages\MyLibrary.tsx">
+        <metrics statements="37" coveredstatements="16" conditionals="14" coveredconditionals="2" methods="12" coveredmethods="7"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="86" count="20" type="stmt"/>
+        <line num="89" count="12" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.BookDetailView">
+      <metrics statements="11" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="BookDetailView.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\pages\BookDetailView\BookDetailView.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="7" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="58" count="6" type="stmt"/>
+        <line num="62" count="6" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+      </file>
+      <file name="BookDetailedView.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\pages\BookDetailView\BookDetailedView.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Entrepreneurship">
+      <metrics statements="20" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="14" coveredmethods="12"/>
+      <file name="Entrepreneurship.stories.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\pages\Entrepreneurship\Entrepreneurship.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="Entrepreneurship.tsx" path="C:\Users\G R SHANKER SAI\Desktop\ZEMOSO\TypeScript+React_UZ\Blinkist_Project\my-app\src\pages\Entrepreneurship\Entrepreneurship.tsx">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="13" coveredmethods="12"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="34" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="64" count="5" type="stmt"/>
+        <line num="66" count="4" type="stmt"/>
+        <line num="79" count="40" type="stmt"/>
+        <line num="82" count="28" type="stmt"/>
+        <line num="134" count="40" type="stmt"/>
+        <line num="137" count="12" type="stmt"/>
+        <line num="192" count="40" type="stmt"/>
+        <line num="195" count="12" type="stmt"/>
+        <line num="242" count="5" type="stmt"/>
+        <line num="265" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

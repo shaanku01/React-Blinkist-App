@@ -1,0 +1,50 @@
+.bannersty{
+        height: 264 px;
+        width:10 px;
+        display: block;
+        background: #F1F6F4;
+
+}
+
+.box1{
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    
+}
+.box2{
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    margin-bottom: 45px;
+}
+
+.header {
+    position: relative;
+    left: 45px;
+    top: 45px;
+    height:fit-content;
+  }
+
+  .body {
+    position: relative;
+    left: -260px;
+    top: 150px;
+    width: 700px;
+    height:fit-content;
+  }
+  .img {
+    position: relative;
+    left: -50px;
+    top: 20px;
+  }
+
+  .parent {
+    display: flex;
+    justify-content: center;
+    width: 912px;
+    height: 284px;
+    background-color: #F1F6F4;
+    
+  }
+

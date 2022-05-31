@@ -1,0 +1,125 @@
+[
+    {
+        "id":1,
+        "picturenumber":"pictures/1.png",
+        "Heading":"Bring Your Human to Work",
+        "subheading":"Erica Keswin",
+        "minuteread":"13-minute read",
+        "totalreads":"",
+        "readstatus":"currentlyReading",
+        "rtype":"Trending",
+        "audio":true
+
+
+    },
+    {
+        "id":2,
+        "picturenumber":"pictures/2.png",
+        "Heading":"Employee to Entrepreneur",
+        "subheading":"Steve Glaveski",
+        "minuteread":"15-minute read",
+        "totalreads":"",
+        "readstatus":"Finished",
+        "rtype":"Trending"
+
+
+    },
+    {
+        "id":3,
+        "picturenumber":"pictures/3.png",
+        "Heading":"Doesn’t Hurt to Ask",
+        "subheading":"Trey Gowdy",
+        "minuteread":"13-minute read",
+        "totalreads":"1.9k reads",
+        "readstatus":"Finished",
+        "rtype":"Trending"
+
+
+    },
+    {
+        "id":4,
+        "picturenumber":"pictures/4.png",
+        "Heading":"The Fate of Food",
+        "subheading":"Amanda Little",
+        "minuteread":"12-minute read",
+        "totalreads":"16k reads",
+        "readstatus":"currentlyReading",
+        "rtype":"Trending",
+        "audio":true
+
+
+    },
+    {
+        "id":5,
+        "picturenumber":"pictures/5.png",
+        "Heading":"Lives of the Stoics",
+        "subheading":"Ryan Holiday, Stephen Hansel",
+        "minuteread":"13-minute read",
+        "totalreads":"",
+        "readstatus":"Finished",
+        "rtype":"Trending"
+
+
+    },
+    {
+        "id":6,
+        "picturenumber":"pictures/6.png",
+        "Heading":"Loving Your Business",
+        "subheading":"Debbie King",
+        "minuteread":"13-minute read",
+        "totalreads":"",
+        "readstatus":"currentlyReading",
+        "rtype":"Trending",
+        "audio":true
+
+
+    },
+    {
+        "id":7,
+        "picturenumber":"pictures/7.png",
+        "Heading":"The Lonely Century",
+        "subheading":"Noreena Hertz",
+        "minuteread":"15-minute read",
+        "totalreads":"",
+        "readstatus":"currentlyReading",
+        "rtype":"justadded"
+
+
+    },
+    {
+        "id":8,
+        "picturenumber":"pictures/8.png",
+        "Heading":"Eat Better, Feel Better",
+        "subheading":"Giada De Laurentiis",
+        "minuteread":"13-minute read",
+        "totalreads":"1.9k reads",
+        "readstatus":"currentlyReading",
+        "rtype":"justadded"
+
+
+    },
+    {
+        "id":9,
+        "picturenumber":"pictures/9.png",
+        "Heading":"Dropshipping",
+        "subheading":"James Moore",
+        "minuteread":"12-minute read",
+        "totalreads":"",
+        "readstatus":"currentlyReading",
+        "rtype":"justadded"
+
+
+    },{
+        "id":10,
+        "picturenumber":"pictures/pic1.png",
+        "Heading":"Beyond Entrepreneurship",
+        "subheading":"Jim Collins & Bill Lazier",
+        "minuteread":"13-minute read",
+        "totalreads":"",
+        "readstatus":"",
+        "rtype":"Trending"
+
+
+    }
+
+]

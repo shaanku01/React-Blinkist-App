@@ -1,0 +1,41 @@
+#inblock{
+    display: inline-block;
+}
+
+#maindiv{
+    margin:35px;
+}
+.text{
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+    
+}
+.root{
+    display: inline-block;
+    margin-top: 7px;
+    
+    
+}
+.image{
+    margin-top: 7px;
+}
+.icon{
+    margin-top: 7px;
+}
+
+.lib:hover{
+    border-bottom: 2px solid #2CE080;
+    display: inline-block;
+    height: 100%;
+
+}
+
+.root:hover{
+    border-bottom: 2px solid #2CE080;
+}
+
+#inblock{
+    display: inline-block;
+}

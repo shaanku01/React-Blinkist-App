@@ -1,0 +1,107 @@
+.maindiv{
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F1F6F4;
+
+}
+
+
+#boxes{
+    padding:100px 150px 100px 150px;
+    
+
+}
+#leftbox {
+    float:left; 
+    text-align: left;
+    width:30%;
+    height:280px;
+    
+    
+}
+#image{
+    margin-bottom: 20px;
+}
+#middlebox{
+    float:left; 
+    text-align: left;
+    width:20%;
+    height:280px;
+    
+}
+#middlebox2{
+    float:left; 
+    text-align: left;
+    width:20%;
+    height:280px;
+
+}
+#rightbox{
+    float:left;
+    text-align: left;
+    width:20%;
+    height:280px;
+}
+
+#para1{
+    font-family: 'Cera Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+
+/* beta/secondary/500 */
+
+color: #0365F2;
+
+line-height: 0;
+}
+
+#footerheading1{
+    margin-top: 0;
+    font-family: "Cera Pro";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+
+/* identical to box height, or 150% */
+
+
+/* beta/text/high emphasis */
+
+color: #03314B;
+}
+#footersubheadings{
+    font-family: 'Cera Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #6D787E;
+}
+
+
+#copyright{
+    font-family: 'Cera Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+/* beta/text/medium emphasis */
+
+color: #6D787E;
+float: left;
+
+}
+#footerdiv{
+    width: 100%;
+    background:#F1F6F4 ;
+}
