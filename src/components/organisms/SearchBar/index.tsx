@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 
 import data from "../../../pages/input.json";
 import Styles from "./searchbar.module.css";
+import { Grid } from "@mui/material";
 
 export default function CustomTextFiled() {
   const [value, setValue] = React.useState('');
@@ -79,15 +80,20 @@ export default function CustomTextFiled() {
         
       </div>
       {filteredData.length != 0 && (
+        <Grid container>
         <div className={Styles.dataResult}>
           {filteredData.slice(0, 15).map((value, key) => {
             return (
+              <Grid item xs={12}>
               <a className={Styles.dataItem} href={"/detailed"} >
-                <p>{value.Heading} </p>
+                <h3>{value.Heading}</h3><p> by {value.subheading} </p>
+                
               </a>
+              </Grid>
             );
           })}
         </div>
+        </Grid>
       )}
     </div>
   
