@@ -6,7 +6,7 @@ import data from "../../../pages/input.json";
 import Styles from "./searchbar.module.css";
 import { Grid } from "@mui/material";
 
-export default function CustomTextFiled() {
+ const CustomTextFiled = ()=> {
   const [value, setValue] = React.useState('');
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -107,3 +107,4 @@ export default function CustomTextFiled() {
     
   );
 }
+export default CustomTextFiled;
