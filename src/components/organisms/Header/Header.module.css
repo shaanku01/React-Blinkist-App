@@ -23,6 +23,7 @@
 }
 .icon{
     margin-top: 7px;
+    cursor: pointer;
 }
 
 .lib:hover{

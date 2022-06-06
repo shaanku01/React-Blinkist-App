@@ -9,7 +9,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import React from "react";
 import itemlist from '../input.json';
 import {useNavigate} from 'react-router-dom';
-import Header from "../../components/organisms/Header";
+import Header from "../../components/organisms/Header/Header";
+import KindleButton from "../../components/organisms/KindleButton";
 
 const customTheme = createMuiTheme({
     palette: {
@@ -135,28 +136,9 @@ const BookDetailView = () => {
             </CustomButton>
               
             </span>
-            <span data-testid="toexist">
-            <CustomButton
-            
-              variant="text"
-              endIcon={<AiOutlineArrowRight />}
-              sx={{
-                color: "black",
-                border: "none",
-                width: "170px",
-                height: "44px",
-                margin: "5px",
-                borderRadius: "5px",
-                fontSize: "14px",
-                "&:hover": {
-                  color: "white",
-                  backgroundColor: "#22C870",
-                },
-              }}
-            >
-              send to kindle
-            </CustomButton>
 
+            <span data-testid="toexist" >
+              <KindleButton/>
             </span>
             
           </div>

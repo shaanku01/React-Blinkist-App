@@ -1,22 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 
 
+import {useNavigate} from 'react-router-dom';
 
-
-import Typography from "../atoms/Typography/Typography";
+import Typography from "../../atoms/Typography/Typography";
 
 import SearchIcon from "@mui/icons-material/Search";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Styles from "./Header.module.css";
 import { Grid } from "@mui/material";
-import Explore from "./Explore/Explore";
+import Explore from "../Explore/Explore";
 
 import {useAuth0} from '@auth0/auth0-react';
-import CustomAvatar from "../atoms/Avator/Avator";
+import CustomAvatar from "../../atoms/Avator/Avator";
 import Typography2 from "@mui/material/Typography";
+import CustomTextFiled from "../SearchBar";
+
+
+const Content = ()=>{
+  const navigate = useNavigate();
+  return(
+    <>
+    <Grid item xs={1}  >
+  <Explore />
+  </Grid>
+  <Grid item xs={4}  >
+    <div className={Styles.lib} onClick={()=>{navigate('/')}}><Typography variant={"body1"} content={"My Library"} styles={{marginTop:"7px" , cursor: "pointer"}} /></div>
+      
+  </Grid>
+  </>
+
+  )
+}
 
 
 const Header = () => {
+
+  const navigate = useNavigate();
+
+  const [searchBar,setSearchBar] = useState(false);
 
   // const {loginWithRedirect , logout , user , isAuthenticated} = useAuth0();
 
@@ -36,16 +58,14 @@ const Header = () => {
         <Grid item xs={1}>
           <img data-testid="blinkist-logo" src="logo.png" alt="icon" className={Styles.image} />
         </Grid>
-        <Grid item xs={1}>
-          <SearchIcon data-testid="searchIcon-button" className={Styles.icon} />
+        <Grid item xs={searchBar?0:1} >
+          <SearchIcon data-testid="searchIcon-button" className={Styles.icon} onClick={()=>{setSearchBar((prev)=>{return !prev})}}/>
         </Grid>
-        <Grid item xs={1}  >
-        <Explore />
-        </Grid>
-        <Grid item xs={4}  >
-          <div className={Styles.lib}><Typography variant={"body1"} content={"My Library"} styles={{marginTop:"7px" , cursor: "pointer"}} /></div>
-            
-        </Grid>
+
+        {searchBar? <Grid item xs={6} ><CustomTextFiled/></Grid> : <Content/>   }
+
+
+        
       
 
         <Grid item xs={1} >

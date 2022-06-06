@@ -2,7 +2,7 @@ import React from "react";
 
 import "./App.css";
 
-import MyLibrary from "./pages/MyLibrary";
+import MyLibrary from "./pages/MyLibrary/MyLibrary";
 import BookDetailView from "./pages/BookDetailView/BookDetailView";
 
 import Entrepreneurship from "./pages/Entrepreneurship/Entrepreneurship";
